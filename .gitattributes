@@ -1,0 +1,5 @@
+# Frozen evidence and policy hashes depend on exact file bytes across checkouts.
+*.json -text whitespace=cr-at-eol
+**/artifacts/** -text whitespace=cr-at-eol
+/results/*.csv -text whitespace=cr-at-eol
+/submission/*.zip -text

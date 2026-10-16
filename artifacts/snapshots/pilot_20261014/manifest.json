@@ -1,0 +1,191 @@
+{
+  "retrieved_utc": "2026-10-14T21:20:27.581220+00:00",
+  "filter": "((ApplicationDate >= TIMESTAMP '2026-01-01 00:00:00' AND ApplicationDate < TIMESTAMP '2027-01-01 00:00:00') OR (IssueDate >= TIMESTAMP '2026-01-01 00:00:00' AND IssueDate < TIMESTAMP '2027-01-01 00:00:00')) AND EventTypeDescription IN ('Construction Staging Area','Mobile Crane Work Zone') AND ApplicantCompany IN ('DCWater','DCWater/CIP','DCWater/OPS','Potomac Electric Power Company','Pepco','Wash Gas & Light Co.')",
+  "selection": [
+    {
+      "alias": "DCWater",
+      "chosen_tracking_numbers": [
+        11211713
+      ]
+    },
+    {
+      "alias": "DCWater/CIP",
+      "chosen_tracking_numbers": [
+        11218657,
+        11223479,
+        11230412,
+        11228809
+      ]
+    },
+    {
+      "alias": "DCWater/OPS",
+      "chosen_tracking_numbers": [
+        11218719,
+        11225916,
+        11231308,
+        11231002
+      ]
+    },
+    {
+      "alias": "Potomac Electric Power Company",
+      "chosen_tracking_numbers": [
+        11223710,
+        11231569,
+        11213896,
+        11207147
+      ]
+    },
+    {
+      "alias": "Pepco",
+      "chosen_tracking_numbers": [
+        11228844,
+        11235361,
+        11212865,
+        11212880
+      ]
+    },
+    {
+      "alias": "Wash Gas & Light Co.",
+      "chosen_tracking_numbers": [
+        11220653,
+        11221721,
+        11213712,
+        11222610
+      ]
+    }
+  ],
+  "selected_applications": [
+    11182457,
+    11191909,
+    11197669,
+    11207147,
+    11211713,
+    11212865,
+    11212880,
+    11213712,
+    11213896,
+    11218657,
+    11218719,
+    11220653,
+    11221721,
+    11222610,
+    11223479,
+    11223710,
+    11225916,
+    11228809,
+    11228844,
+    11230412,
+    11231002,
+    11231308,
+    11231569,
+    11235361
+  ],
+  "whole_application_object_ids": {
+    "11228809": [
+      1029801,
+      1029802,
+      1029803
+    ],
+    "11213712": [
+      1015228,
+      1015229
+    ],
+    "11231002": [
+      1031004,
+      1031005
+    ],
+    "11223710": [
+      1023052
+    ],
+    "11218719": [
+      1020931
+    ],
+    "11235361": [
+      1041658
+    ],
+    "11228844": [
+      1029826
+    ],
+    "11220653": [
+      1024246
+    ],
+    "11223479": [
+      1022888
+    ],
+    "11225916": [
+      1027327
+    ],
+    "11211713": [
+      1012799
+    ],
+    "11212865": [
+      1014134,
+      1014135,
+      1014136,
+      1014137,
+      1014138,
+      1014139
+    ],
+    "11213896": [
+      1015354,
+      1015355,
+      1015356,
+      1015357
+    ],
+    "11230412": [
+      1030879
+    ],
+    "11231308": [
+      1031813
+    ],
+    "11212880": [
+      1014148,
+      1014149,
+      1014246,
+      1014247,
+      1014248
+    ],
+    "11231569": [
+      1035628
+    ],
+    "11222610": [
+      1025481,
+      1025482
+    ],
+    "11221721": [
+      1024670
+    ],
+    "11218657": [
+      1021058
+    ],
+    "11197669": [
+      996050,
+      996051
+    ],
+    "11191909": [
+      989043
+    ],
+    "11207147": [
+      1007738,
+      1007739,
+      1007740
+    ],
+    "11182457": [
+      977165,
+      977166,
+      977186,
+      977187
+    ]
+  },
+  "source_urls": {
+    "permits": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_APPS/DDOT_TOPS/MapServer/24",
+    "roads": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Transportation_WebMercator/MapServer/162",
+    "lrs": "https://rh.dcgis.dc.gov/dcgis/rest/services/DDOT/RoadwayBlocks/MapServer/exts/DdotLrsExtensions/getPointOnSubBlock"
+  },
+  "out_fields": "*",
+  "hashes": {
+    "permits.json": "e48c9633ef01d7152ac87d92a72dcd4a95553032afc7540245d7b86c52854ec9",
+    "lrs.json": "106490d9b7fde94588148f01f2bfa24ff570d49a28b2a66415797d54b3bd57dd",
+    "roads.json": "8c26b7302fe6afb78611bb8785f933940b364ef1a0de7a01ad68a12a86a18be0"
+  }
+}

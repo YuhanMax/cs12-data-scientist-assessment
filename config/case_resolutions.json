@@ -1,0 +1,15 @@
+{
+  "policy": "reviewed_unique_exact_unit_block_v1",
+  "evidence": "anomalies/ANALYSIS.md: Python Benning dispositions; exact unitBlock outranks the street/ramp near tie for these two frozen identities only",
+  "snapshot_manifest_sha256": "b3511428570b3e1ab8e851ff5f773405c76e14d0375bdee59231850da0680c38",
+  "address": "3400 - 3799 BLOCK OF BENNING ROAD NE",
+  "geometry": {"x": -76.95197115757568, "y": 38.89564663280253},
+  "subblock_key": "910e58e4349e828dd7d2f1d069d2c19e",
+  "road_name": "BENNING RD NE",
+  "road_type": "1",
+  "fhwa_code": 3,
+  "cases": [
+    {"OBJECTID": 1007738, "TrackingNumber": 11207147, "LocationID": 1521716},
+    {"OBJECTID": 1015354, "TrackingNumber": 11213896, "LocationID": 1530744}
+  ]
+}

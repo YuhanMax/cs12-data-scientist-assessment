@@ -1,0 +1,92 @@
+{
+  "captured_date_type_locations": 7279,
+  "utility_alias_counts": {
+    "DCWater": 1,
+    "DCWater/CIP": 1391,
+    "DCWater/OPS": 519,
+    "Potomac Electric Power Company": 1308,
+    "Pepco": 95,
+    "Wash Gas & Light Co.": 1669
+  },
+  "utility_counts": {
+    "DC Water": 1911,
+    "PEPCO": 1403,
+    "Washington Gas": 1669
+  },
+  "requested_type_counts": {
+    "Construction Staging Area": 4983,
+    "Mobile Crane Work Zone": 0
+  },
+  "captured_date_type_counts": {
+    "Construction Staging Area": 7014,
+    "Mobile Crane Work Zone": 265
+  },
+  "unmatched_utility_looking_identities": [],
+  "identity_audit_scope": "2026 date-OR/type cohort; company, owner and permittee; regex heuristic only",
+  "complete_applications": 3073,
+  "incomplete_applications": 56,
+  "match_counts": {
+    "matched": 4927,
+    "unresolved": 56
+  },
+  "match_reason_counts": {
+    "nearest_eligible_road": 4817,
+    "named_street_disagreement": 13,
+    "mar_exact_address": 89,
+    "unique_exact_unit_block_nearest_street": 11,
+    "no_eligible_road_within_50m": 14,
+    "intersection_class_consensus": 10,
+    "ambiguous_different_roads_within_1m": 24,
+    "multiple_exact_unit_blocks": 4,
+    "unit_block_disagreement": 1
+  },
+  "class_method_counts": {
+    "nearest_road": 4828,
+    "unresolved": 56,
+    "mar_address": 89,
+    "intersection_consensus": 10
+  },
+  "matched_fhwa_counts": {
+    "7": 2414,
+    "4": 1093,
+    "5": 802,
+    "1": 4,
+    "3": 505,
+    "6": 109
+  },
+  "exception_counts": {
+    "named_street_disagreement": 13,
+    "no_eligible_road_within_50m": 14,
+    "ambiguous_different_roads_within_1m": 24,
+    "multiple_exact_unit_blocks": 4,
+    "unit_block_disagreement": 1
+  },
+  "unresolved_locations": 56,
+  "author": "Yuhan Wu",
+  "snapshot_manifest_sha256": "598ff744f4b27386d1abce34bee0b65d7efb6fa4c9b2601b9d5fec88d67ca28e",
+  "locations": 4983,
+  "applications": 3129,
+  "match_policy": "nearest_50m_intersection_consensus_exact_mar_v5",
+  "source_retrieval": {
+    "retrieved_utc": "2026-10-15T02:04:10.075635+00:00",
+    "source_retrieval_started_utc": "2026-10-15T01:17:01.112252+00:00",
+    "source_retrieval_finished_utc": "2026-10-15T01:17:08.399239+00:00",
+    "supplemental_attached_utc": "2026-10-16T02:56:51.709373+00:00"
+  },
+  "supplemental_evidence": {
+    "file": "mar_evidence.json",
+    "sha256": "a112009f7876aa5fa68f38a948df448a783368adf593400476291149f0b11d01",
+    "base_snapshot_sha256": "bc506840f302fb0cd313d3208880078b217c695d0fa28f59f5714bb8848e8c9f",
+    "query_retrieval_times": [
+      "2026-10-16T02:43:14.515916+00:00",
+      "2026-10-16T02:43:14.933737+00:00",
+      "2026-10-16T02:43:14.951702+00:00",
+      "2026-10-16T02:43:14.970638+00:00",
+      "2026-10-16T02:43:15.363316+00:00",
+      "2026-10-16T02:43:15.364496+00:00",
+      "2026-10-16T02:43:15.365496+00:00"
+    ],
+    "address_records": 106,
+    "road_records": 103
+  }
+}

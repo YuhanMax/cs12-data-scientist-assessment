@@ -1,0 +1,7 @@
+# Python Benning Street pilot decision
+
+Two retained pilot locations, OBJECTID 1007738 (`TrackingNumber` 11207147, `LocationID` 1521716) and OBJECTID 1015354 (`TrackingNumber` 11213896, `LocationID` 1530744), share a point and the source address `3400 - 3799 BLOCK OF BENNING ROAD NE`. The nearest eligible Street has `SUBBLOCKKEY` `910e58e4349e828dd7d2f1d069d2c19e`, `ROADTYPE` 1 and FHWA class 3. A nearby ramp has a different road name. The retained pilot's source attributes, geometry, raw LRS candidates and roadway attributes are under `artifacts/snapshots/pilot_20261014`.
+
+The fixed case evidence in [`config/case_resolutions.json`](../config/case_resolutions.json) applies only to the pinned pilot manifest SHA-256 `b3511428570b3e1ab8e851ff5f773405c76e14d0375bdee59231850da0680c38`. The decision favors the unique exact unit block on the nearest Street when the lookup road identity, type and class agree. It does not select a farther candidate for a more favorable class and does not transfer the frozen identity decision to a new snapshot. The current v4 address-conflict rule leaves two other pilot locations unresolved as `named_street_disagreement`. These are contextual matching judgments, not surveyed road associations.
+
+The policy retains its original `anomalies/ANALYSIS.md` citation as historical provenance. This document is the current case explanation; the policy bytes and hash are unchanged after directory reorganization.

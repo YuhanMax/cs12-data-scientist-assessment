@@ -1,0 +1,15 @@
+{
+  "version": "v5",
+  "locations": 4983,
+  "applications": 3129,
+  "assigned_fhwa": 4927,
+  "unresolved": 56,
+  "complete_applications": 3073,
+  "tests": 59,
+  "packaged_readme_paths_checked": 27,
+  "csv_sha256": "de7da3cb23d3b534f99fd589cdbfaa6cb513d16dd59e5770677676c753a6f772",
+  "archives": {
+    "Yuhan_Wu_Python.zip": "322e68aca2db83113e2c10569a616a6d9b4fe9031c51359f4d84fdc2031e7ba9"
+  },
+  "parent_archive": "Can be generated locally; see docs/USAGE.md."
+}
